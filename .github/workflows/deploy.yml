@@ -9,7 +9,7 @@ permissions:
 
 env:
   AWS_REGION: ap-northeast-2
-  ECR_REPOSITORY: jenkins # 혹은 gitactions
+  ECR_REPOSITORY: gitactions # 혹은 gitactions
   ECR_REGISTRY: 639242342449.dkr.ecr.ap-northeast-2.amazonaws.com
   IMAGE_TAG: v${{ github.run_number }}
 
